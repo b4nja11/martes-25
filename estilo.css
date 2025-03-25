@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Gidole&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4f4f4;
+    color: #151816;
+    font-family: "Gidole", sans-serif;
+    margin: 5%;
+    line-height: 1.6;
+}
+
+main{
+    background: #ffff;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(28,123,54,0,1);
+    border-radius: 8px;
+}
+
+header{
+    text-align: center;
+    background-color: #1996cb;
+    color: rgb(22, 92, 190);
+    padding: 20px 0;
+    border-radius: 8px 8px 0 0;
+    background-image: url('./img/Fondo\ de\ perfil.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+header figure img{
+    border-radius: 50%;
+    border: 5px solid #216cae;
+    box-shadow: 0 0 10px rgba(188,216,219,0.5);
+}
+header h1{
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+header h2{
+    font-size: 2em;
+    opacity: 0.7;
+}
